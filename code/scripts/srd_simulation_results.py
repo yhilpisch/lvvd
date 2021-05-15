@@ -14,7 +14,7 @@ import datetime as dt
 import matplotlib.pyplot as plt
 
 # filname for HDFStore to save results
-filename = "../data/simulation_results.h5"
+filename = "./data/simulation_results.h5"
 
 
 def write_results(sim_results, name, SEED, runs, steps, paths, mo_match,
